@@ -1,0 +1,323 @@
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#posterbg {
+height: 100%;
+width: 100%;
+padding: 30px;
+
+animation: bgchange 30.2s;
+animation-fill-mode: forwards;
+} 
+
+@keyframes bgchange {
+  0% { background-color: #ffffff; }
+  40% { background-color: #ffffff; }
+  50% { background-color: #ffffff; }
+  60% { background-color: #ffffff; }
+  80% { background-color: #ffffff; }
+  88% { background-color: #ffffff; }
+  89% { background-color: #000000; }
+  90% { background-color: #000000; }
+  100% { background-color: #000000; }
+
+}
+/* #7b0a27 */
+
+
+#postertext {
+	font-family: 'Josefin Sans', sans-serif;
+	height: 600px;
+	width: 1100px;
+	text-align: left;
+	margin: auto;
+	font-size: 40px;
+	padding: 30px;
+	background-color: transparent;
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  line-height: 55px;
+  letter-spacing: 0px;
+  line-spacing: -120px;
+  
+
+  animation: textchange 30s forwards;
+}
+
+@keyframes textchange {
+   0% { color: transparent; }
+  50% { color:   transparent; }
+  64% { color: #C12925; }
+  78% { color:  #C12925; }
+  89% { color: transparent;  }
+  100% { color: transparent; }
+
+}
+
+#searchbar {
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	height: 40px;
+	width: 800px;
+	margin-left: -400px;
+	background-color: gray;
+	border: 2px #ffffff solid;
+	border-radius: 15px;
+	text-align: left;
+	padding: 10px;
+	color: black;
+	text-indent: 10px;
+
+  animation: searchbarchange 3s forwards;
+  animation-delay: 12s;
+}
+
+@keyframes searchbarchange {
+  0% { opacity: 1; }
+
+  100% { opacity: 0; }
+}
+
+#wordsearch {
+text-align: left;
+font-size: 30px;
+background-color: transparent;
+font-family: 'Josefin Sans', sans-serif;
+position: absolute;
+top: 270px;
+left: 400px;
+
+display: inline-block;
+}
+
+#wordsearch {
+  color: black;
+ 
+}
+
+#wordsearch:after {
+  content:"";
+  animation: wordsearch 30s forwards;
+}
+
+@keyframes wordsearch {
+  1% { content:"|"; }
+  2% { content:"|"; }
+  3% { content:""; }
+  4% { content:""; }
+  5% { content:"|"; }
+  6% { content:"|"; }
+  7% { content:"|"; }
+  8% { content:""; }
+
+  9% { content:"Is |"; opacity: 1; }
+  10% { content:"Is porn |"; }
+  11% { content:"Is porn harmful |"; }
+  12% { content:"Is porn harmful to |"; }
+  13% { content:"Is porn harmful to my |"; }
+  14% { content:"Is porn harmful to my relationship? |"; }
+  15% { content:"Is porn harmful to my relationship? |"; }
+  16% { content:"Is porn harmful to my relationship? |"; }
+  17% { content:"Is porn harmful to my relationship? |"; }
+
+  18% { content:"Is porn |"; }
+  19% { content:"Is porn con |"; }
+  20% { content:"Is porn consi |"; }
+  21% { content:"Is porn consider |"; }
+  22% { content:"Is porn considered  |"; }
+  23% { content:"Is porn considered ab |"; }
+  24% { content:"Is porn considered abuse? |"; }
+  25% { content:"Is porn considered abuse? |"; }
+  26% { content:"Is porn considered abuse? |"; }
+
+  27% { content:"How "; }
+  28% { content:"How is |"; }
+  29% { content:"How is porn |"; }
+  30% { content:"How is porn connected |"; }
+  31% { content:"How is porn connected to |"; }
+  43% { content:"How is porn connected to sex |"; }
+  32% { content:"How is porn connected to sex trafficking? |"; }
+  33% { content:"How is porn connected to sex trafficking? |"; }
+  34% { content:"How is porn connected to sex trafficking? |"; }
+  35% { content:"How is porn connected to sex trafficking? |"; }
+
+  36% { content: "Am I |"; }
+  37% { content: "Am I addicted |"; }
+  38% { content: "Am I addicted to |"; }
+  39% { content: "Am I addicted to pornography? |"; }
+  40% { content: "Am I addicted to pornography? |"; }
+  41% { content: "Am I addicted to pornography? |"; }
+  42% { content: "Am I addicted to pornography? |"; }
+  43% { content: "Am I addicted to pornography? |"; }
+  44% { content: "Am I addicted to pornography? |"; }
+  45% { content: "Am I addicted to pornography? |"; }
+  46% { content: "Am I addicted to pornography? |"; }
+  47% { content: "Am I addicted to pornography? |"; }
+  48% { content:""; }
+  
+  49% { content:""; }
+  50% { content:""; }
+  51% { content:""; }
+  52% { content:""; }
+  53% { content:""; }
+  54% { content:""; }
+
+
+  55% { content:""; }
+  56% { content:""; }
+  57% { content:""; }
+  58% { content:""; }
+  59% { content:""; }
+
+  60% { content:""; }
+  61% { content:""; }
+  62% { content:""; }
+  63% { content:""; }
+  64% { content:""; }
+  65% { content:""; }
+  66% { content:""; }
+  67% { content:""; }
+  68% { content:""; }
+  69% { content:""; }
+
+  70% { content:""; }
+  71% { content:""; }
+  72% { content:""; }
+  73% { content:""; }
+  74% { content:""; }
+  75% { content:""; }
+  76% { content:""; }
+  77% { content:""; }
+  78% { content:""; }
+  70% { content:""; }
+  71% { content:""; }
+  72% { content:""; }
+  70% { content:""; }
+  71% { content:""; }
+  72% { content:""; }
+  70% { content:""; }
+  71% { content:""; }
+  72% { content:""; }
+  73% { content:""; }
+  74% { content:""; }
+  75% { content:""; }
+  76% { content:""; }
+  77% { content:""; }
+  78% { content:""; }
+  79% { content:""; }
+  80% { content:""; }
+  81% { content:""; }
+  82% { content:""; }
+  83% { content:""; }
+  84% { content:""; }
+  85% { content:""; }
+  86% { content:""; }
+  87% { content:""; }
+  89% { content:""; }
+  90% { content:""; }
+  91% { content:""; }
+  92% { content:""; }
+  93% { content:""; }
+  94% { content:""; }
+  95% { content:""; }
+  96% { content:""; }
+  97% { content:""; }
+  98% { content:""; }
+  99% { content:""; }
+  100% { content:""; opacity: 0; }
+
+}
+
+#antiporn {
+color: #ffffff;
+text-align: left;
+font-size: 155px;
+background-color: transparent;
+font-family: 'Josefin Sans', sans-serif;
+position: absolute;
+top: 180px;
+left: 110px;
+line-spacing: -120px;
+
+
+
+display: inline-block;
+}
+
+#antiporn{
+  color: #F8991E;
+  /* opacity: 0.0; */
+}
+
+#antiporn:after {
+  content:"";
+  animation: antiporn 33s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes antiporn { 
+
+0% { content:""; }
+80% { content:""; }
+100% { content:"ANTI - PORNOGRAPHY"; }
+}
+
+#test {
+  color: red;
+}
+
+#magnify {
+  height: 40px; 
+  width: 40px;
+}
+
+#redboxone {
+  width: 500px; 
+  height: 200px;
+  position: absolute;
+  left: 115px;
+  top: 160px;
+  z-index: 1;
+
+  animation: wordupboxone 8s forwards;
+  animation-delay: 27s;
+ 
+}
+
+@keyframes wordupboxone  {
+  0% { width: 500; height: 200px; background-color: #000000; }
+  100% { width: 500; height: 10px;  background-color: #000000; }
+}
+
+#redboxtwo {
+  width: 1400px; 
+  height: 200px;
+  position: absolute;
+  background-color: transparent;
+  left: 115px;
+  top: 320px;
+  z-index: 2;
+
+
+  animation: wordupboxtwo 8s forwards;
+  animation-delay: 27s;
+}
+
+@keyframes wordupboxtwo  {
+  0% { width: 1400; height: 200px; background-color: #000000; }
+  100% { width: 1400; height: 2px; background-color: #000000; }
+}
